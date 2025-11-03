@@ -2,7 +2,7 @@
   "name": "NepHR Management System",
   "short_name": "NepHR",
   "scope": "/nephr-app-loader/",
-  "start_url": "/nephr-app-loader/",
+  "start_url": "https://ranjitmajhi00.github.io/nephr-app-loader/",
   "display": "standalone",
   "background_color": "#EAF0F6",
   "theme_color": "#508C7F",
