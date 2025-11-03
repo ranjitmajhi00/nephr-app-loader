@@ -2,19 +2,19 @@
   "name": "NepHR Management System",
   "short_name": "NepHR",
   "scope": "/nephr-app-loader/",
-  "start_url": "https://ranjitmajhi00.github.io/nephr-app-loader/",
+  "start_url": "/nephr-app-loader/",
   "display": "standalone",
   "background_color": "#EAF0F6",
   "theme_color": "#508C7F",
   "description": "HR Management System.",
   "icons": [
     {
-      "src": "https://www.google.com/s2/favicons?sz=192&domain=script.google.com",
+      "src": "https://drive.google.com/file/d/1HxTW1PcNnSUn0Pb6LDXAGUq2BP_LD5X2/view?usp=drive_link",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://www.google.com/s2/favicons?sz=512&domain=script.google.com",
+      "src": "https://drive.google.com/file/d/1HxTW1PcNnSUn0Pb6LDXAGUq2BP_LD5X2/view?usp=drive_link",
       "sizes": "512x512",
       "type": "image/png"
     }
