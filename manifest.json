@@ -1,7 +1,8 @@
 {
   "name": "NepHR Management System",
   "short_name": "NepHR",
-  "start_url": "loader.html",
+  "scope": "/nephr-app-loader/",
+  "start_url": "/nephr-app-loader/",
   "display": "standalone",
   "background_color": "#EAF0F6",
   "theme_color": "#508C7F",
