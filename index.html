@@ -36,12 +36,11 @@
     <iframe src="https://script.google.com/macros/s/AKfycbwrGxBikVamn3dWDlv48x1hNSLXRWFnyF5RY8NysDyGvthBPj_WHjr87tbA2pzJh7IT/exec"></iframe>
 
     <script>
-        // Service Worker Registration
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js')
-                .then(registration => console.log('Service Worker registered:', registration))
-                .catch(error => console.log('Service Worker registration failed:', error));
-        }
-    </script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js') // Path sahi chha
+            .then(registration => console.log('Service Worker registered:', registration))
+            .catch(error => console.log('Service Worker registration failed:', error));
+    }
+</script>
 </body>
 </html>
