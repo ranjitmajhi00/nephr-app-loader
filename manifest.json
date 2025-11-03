@@ -1,0 +1,21 @@
+{
+  "name": "NepHR Management System",
+  "short_name": "NepHR",
+  "start_url": "loader.html",
+  "display": "standalone",
+  "background_color": "#EAF0F6",
+  "theme_color": "#508C7F",
+  "description": "HR Management System.",
+  "icons": [
+    {
+      "src": "https://www.google.com/s2/favicons?sz=192&domain=script.google.com",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://www.google.com/s2/favicons?sz=512&domain=script.google.com",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
