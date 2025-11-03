@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>NepHR</title> <!-- App ko naam yaha dinu hos -->
+
+    <!-- PWA Tags for App-like Experience -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#508C7F">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="NepHR">
+    <!-- Icon ko lagi placeholder, tapai aafno icon ko link yaha rakhna saknu huncha -->
+    <link rel="apple-touch-icon" href="https://www.google.com/s2/favicons?sz=180&domain=script.google.com">
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: #EAF0F6; /* App ko background color sanga milne */
+        }
+        iframe {
+            border: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+      IMPORTANT: Tala ko src ma aafno Google Apps Script ko NAYA DEPLOYMENT URL rakhnu hos.
+    -->
+    <iframe src="https://script.google.com/macros/s/AKfycbwrGxBikVamn3dWDlv48x1hNSLXRWFnyF5RY8NysDyGvthBPj_WHjr87tbA2pzJh7IT/exec"></iframe>
+
+    <script>
+        // Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(registration => console.log('Service Worker registered:', registration))
+                .catch(error => console.log('Service Worker registration failed:', error));
+        }
+    </script>
+</body>
+</html>
